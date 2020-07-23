@@ -9,9 +9,9 @@ require (
 	golang.org/x/crypto v0.0.0-20200220183623-bac4c82f6975
 	golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
-	k8s.io/api v0.16.13
-	k8s.io/apimachinery v0.16.13
-	k8s.io/client-go v0.16.13
+	k8s.io/api v0.18.6
+	k8s.io/apimachinery v0.18.6
+	k8s.io/client-go v0.18.6
 	k8s.io/cluster-bootstrap v0.16.13
 	k8s.io/klog v1.0.0
 	k8s.io/kubectl v0.18.6
@@ -36,7 +36,7 @@ replace (
 	k8s.io/kube-controller-manager => k8s.io/kube-controller-manager v0.16.13
 	k8s.io/kube-proxy => k8s.io/kube-proxy v0.16.13
 	k8s.io/kube-scheduler => k8s.io/kube-scheduler v0.16.13
-	k8s.io/kubectl => k8s.io/kubectl v0.16.13
+	k8s.io/kubectl => k8s.io/kubectl v0.18.6
 	k8s.io/kubelet => k8s.io/kubelet v0.16.13
 	k8s.io/legacy-cloud-providers => k8s.io/legacy-cloud-providers v0.16.13
 	k8s.io/metrics => k8s.io/metrics v0.16.13
