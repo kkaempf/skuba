@@ -2,8 +2,8 @@ import signal
 import time
 import yaml
 
-PREVIOUS_VERSION = "1.17.9"
-CURRENT_VERSION = "1.18.6"
+PREVIOUS_VERSION = "1.15.2"
+CURRENT_VERSION = "1.16.13"
 
 
 def check_nodes_ready(kubectl):
